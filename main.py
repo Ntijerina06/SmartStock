@@ -3,5 +3,5 @@ import robin_stocks.robinhood as rh
 import pandas as pd
 
 if __name__ == "__main__":
-    ss = Smart_Stock("noahtijerina06@gmail.com", "March3106$")
+    ss = Smart_Stock("UserName", "Password")
     print(ss.AI_Help_my_portfolio())
